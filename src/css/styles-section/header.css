@@ -3,31 +3,31 @@
   position: fixed;
   top: 0;
   left: 0;
-  padding: 6px 0;
+  padding: 8px 0;
   width: 100%;
   margin: 0 auto;
   z-index: 1000;
 
   @media only screen and (min-width: 1440px) {
-    padding: 15px 0;
+    padding: 13px 0;
   }
 }
 
 .hdr_container {
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;
 
   @media only screen and (min-width: 1440px) {
-    justify-content: center;
-    gap: 400px;
+    flex-direction: row;
   }
 }
 
 .hdr_btn-burger {
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 24px;
+  height: 24px;
   background-color: transparent;
   border: none;
   outline: none;
@@ -69,6 +69,7 @@
   @media only screen and (min-width: 1440px) {
     width: 32px;
     height: 32px;
+    /* margin-right: 695px; */
   }
 }
 
@@ -82,35 +83,32 @@
 
   @media only screen and (min-width: 1440px) {
     display: block;
-    width: 100%;
   }
 }
 
 .hdr_list-navigation {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 16px;
   width: 100%;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.hdr_item-navigation {
-  flex: 0 1 auto;
-}
 
 .hdr_item-nav-link {
-  font-size: 16px;
-  font-weight: 400;
+  font-family: var(--font-main);
+  font-size: 12px;
+  font-weight: 300;
   line-height: 1.5;
   letter-spacing: 0.05em;
-  color: var(--accent-color);
+  color: var(--white-color);
   transition: color 0.3s ease;
 
   &:hover,
   &:focus-visible,
   &:active {
-    color: var(--white-color);
+    color: var(--accent-color);
   }
 }
