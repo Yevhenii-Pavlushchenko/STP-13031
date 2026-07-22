@@ -1,12 +1,14 @@
 :root {
-  --font-baloo: "Baloo 2",sans-serif;
-  --font-poppins: "Poppins", sans-serif;
+  --font-main: "Roboto",sans-serif;
+  --font-title: "Special Gothic Expanded One", sans-serif;
 
-  --bg-dark: #090432;
-  --bg-light: #242140;
-  --white-color: #fffae6;
-  --title-color: #bebadc;
-  --accent-color: #67628c;
+  --bg-dark: #080c1b;
+  --bg-light: #031d36;
+  --bg-3: #12344d;
+  --white-color: #f2f5f8;
+  --title-color: #6ec8ff;
+  --accent-color: #3fe7e0;
+  --accent-color2: #ffb75e;
   --green-color: #86d913;
   --yellow-color: #ffda00;
   --red-color: #ce160f;
@@ -33,7 +35,7 @@ body {
   min-height: 100vh;
   margin: 0;
   /* padding-top: 79px; */
-  font-family: var(--font-poppins);
+  font-family: var(--font-main);
   background-color: var(--bg-dark);
   color: var(--white-color);
   display: flex;
@@ -64,7 +66,7 @@ h1,
 h2,
 a,
 li {
-  font-family: var(--font-baloo);
+  font-family: var(--font-title);
 }
 
 .visually-hidden {
