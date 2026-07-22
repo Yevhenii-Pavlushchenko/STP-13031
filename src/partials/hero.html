@@ -1,14 +1,20 @@
 <article class="hr_hero">
   <div class="hr_hero-bg-wrapper">
     <picture>
+      <!-- Десктопний фон з папки hero -->
       <source
         media="(min-width: 1440px)"
         srcset="/img/hero/hero.png 1x, /img/hero/hero@2x.png 2x"
+        type="image/png"
+      />
+      <!-- Мобільний фон з папки hero -->
+      <source
+        srcset="/img/hero/hero-mob.png 1x, /img/hero/hero-mob@2x.png 2x"
+        type="image/png"
       />
       <img
         src="/img/hero/hero-mob.png"
-        srcset="/img/hero/hero-mob@2x.png 2x"
-        alt="Royal Adventure characters in the forest"
+        alt="Abyssal Tide Underwater World"
         class="hr_hero-bg-img"
         loading="eager"
       />
@@ -16,51 +22,22 @@
   </div>
 
   <div class="container hr_hero-container">
-    <div class="hr_hero-content">
-      <h1 class="visually-hidden">Royal Adventure Game</h1>
+    <figure class="hr_hero-logo-box">
+      <img
+        src="/img/hero/logo-hero.png"
+        srcset="/img/hero/logo-hero@2x.png 2x"
+        alt="Abyssal Tide Logo"
+        class="hr_hero-logo"
+      />
+    </figure>
 
-      <figure class="hr_hero-logo-box">
-        <picture>
-          <source
-            media="(min-width: 1440px)"
-            srcset="/img/hero/logo-hero.png 1x, /img/hero/logo-hero@2x.png 2x"
-          />
-          <img
-            src="/img/hero/logo-hero-mob.png"
-            srcset="/img/hero/logo-hero-mob@2x.png 2x"
-            alt="Royal Adventure Logo"
-            class="hr_hero-logo"
-          />
-        </picture>
-      </figure>
+    <h1 class="hr_hero-title">Descend Into The Unknown Depths</h1>
 
-      <h2 class="hr_hero-title">
-        <span>EVERY MATCH</span>
-        <span>RESTORES THE KINGDOM</span>
-      </h2>
-
-      <div class="hr_hero-descr-box">
-        <p class="hr_hero-text">Match your way through a magical kingdom.</p>
-        <p class="hr_hero-text">Adventure, magic, and royal secrets await.</p>
-      </div>
-
-      <a
-        href="https://play.google.com/store/apps/details?id=com.dreamspark.royal.adventure&hl=en&gl=us"
-        class="hr_hero-btn"
-        target="_blank"
-        cursor="pointer"
-        rel="noopener noreferrer"
-      >
-        <figure class="hr_hero-btn-figure">
-          <picture>
-            <img
-              src="/img/hero/google.png"
-              alt="Get it on Google Play"
-              class="hr_hero-btn-img"
-            />
-          </picture>
-        </figure>
-      </a>
+    <div class="hr_hero-descr-box">
+      <p class="hr_hero-text">
+        The ocean remembers everything. <br />
+        Survive the ocean and uncover forgotten underwater civilizations.
+      </p>
     </div>
   </div>
 </article>

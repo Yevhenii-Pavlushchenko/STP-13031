@@ -59,20 +59,45 @@
   width: 24px;
   height: 24px;
   flex-shrink: 0;
+  position: relative;
 
   picture {
     display: block;
     width: 100%;
     height: 100%;
+    position: relative;
+    z-index: 2;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: -4px;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+
+    filter: blur(8px);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover::before,
+  &:focus-visible::before {
+    opacity: 0.6;
   }
 
   @media only screen and (min-width: 1440px) {
     width: 32px;
     height: 32px;
-    /* margin-right: 695px; */
+
+    &::before {
+      inset: -6px;
+      filter: blur(12px);
+
+    }
   }
 }
-
 .hdr_logo-img {
   width: 100%;
   height: 100%;
