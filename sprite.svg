@@ -1,0 +1,35 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <symbol id="icon-back" viewBox="0 0 32 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.3333"
+        d="M20 24l-8-8 8-8"></path>
+    </symbol>
+    <symbol id="icon-burger" viewBox="0 0 32 32">
+      <path stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="4" stroke-width="1.3333"
+        d="M8 10.667h14.667M8 21.333h14.667M8 16h14.667"></path>
+    </symbol>
+    <symbol id="icon-close" viewBox="0 0 32 32">
+      <path stroke-linejoin="round" stroke-linecap="square" stroke-miterlimit="4" stroke-width="1.3333"
+        d="M10.667 10.667l5.333 5.333M16 16l-5.333 5.333M16 16l5.333 5.333M16 16l5.333-5.333"></path>
+    </symbol>
+    <symbol id="icon-faq" viewBox="0 0 55 32">
+      <path stroke-linejoin="round" stroke-linecap="square" stroke-miterlimit="4" stroke-width="4.5714"
+        d="M3.232 3.232l22.857 22.857 22.857-22.857"></path>
+    </symbol>
+    <symbol id="icon-chevron-left" viewBox="0 0 17 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4615"
+        d="M16 30.769l-14.769-14.769 14.769-14.769"></path>
+    </symbol>
+    <symbol id="icon-chevron-right" viewBox="0 0 17 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4615"
+        d="M1.231 30.769l14.769-14.769-14.769-14.769"></path>
+    </symbol>
+    <symbol id="icon-envelope" viewBox="0 0 32 32">
+      <path
+        d="M6.155 25.333c-0.614 0-1.127-0.205-1.537-0.616s-0.616-0.924-0.617-1.539v-14.357c0-0.614 0.206-1.127 0.617-1.537s0.924-0.616 1.536-0.617h19.693c0.613 0 1.125 0.206 1.536 0.617s0.616 0.924 0.617 1.537v14.359c0 0.613-0.206 1.126-0.617 1.537s-0.924 0.617-1.536 0.616h-19.692zM26.667 9.18l-10.069 6.592c-0.094 0.049-0.189 0.090-0.285 0.124s-0.201 0.049-0.312 0.049-0.215-0.016-0.312-0.049c-0.097-0.033-0.192-0.074-0.285-0.124l-10.069-6.593v14c0 0.24 0.077 0.437 0.231 0.591s0.351 0.231 0.591 0.231h19.692c0.239 0 0.436-0.077 0.589-0.231s0.231-0.351 0.231-0.591v-13.999zM16 14.666l10.256-6.667h-20.512l10.256 6.667zM5.333 9.461v0z">
+      </path>
+    </symbol>
+
+  </defs>
+</svg>
