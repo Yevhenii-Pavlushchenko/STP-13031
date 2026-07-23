@@ -92,3 +92,15 @@ html {
     scroll-padding-top: 50px;
   }
 }
+
+main {
+  overflow: hidden;
+}
+
+.htw_how-to-play {
+  overflow: hidden;
+}
+
+.glr_gallery {
+  overflow: hidden;
+}

@@ -1,39 +1,15 @@
 .scpg {
   padding-top: 0;
-
-
-
-  .ftr_footer {
-    background-color: inherit;
-
-    .ftr_footer-link {
-      color: var(--black-color);
-
-      &:hover {
-        color: var(--accent-color);
-      }
-
-      &:not(:last-child)::after {
-        color: var(--black-color);
-      }
-    }
-
-    .ftr_footer-copyright {
-      color: var(--black-color);
-    }
-
-  }
 }
 
 .scpg_policy-section {
-    position: relative;
+  position: relative;
   padding-top: 120px;
   padding-bottom: 80px;
   border-bottom: 1px solid var(--title-color);
 
   @media only screen and (min-width: 1440px) {
     padding-top: 174px;
-
   }
 }
 
@@ -54,7 +30,7 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-family: var(--font-nain);
+  font-family: var(--font-main);
   font-size: 14px;
   color: var(--white-color);
   stroke: var(--white-color);
@@ -81,11 +57,6 @@
     width: 41px;
     height: 41px;
   }
-
-  &:hover,
-  &:focus {
-    stroke: inherit;
-  }
 }
 
 .scpg_main-title {
@@ -98,7 +69,7 @@
 
   @media only screen and (min-width: 1440px) {
     font-size: 48px;
-      line-height: 1;
+    line-height: 1;
   }
 }
 
@@ -115,10 +86,10 @@
 }
 
 .scpg_content-block p {
-  font-family: var(--font-inter);
+  font-weight: 300;
   font-size: 14px;
   line-height: 1.5;
-  color: var(--black-color);
+  color: var(--white-color);
 
   @media only screen and (min-width: 1440px) {
     font-size: 24px;
@@ -126,19 +97,18 @@
 }
 
 .scpg_content-block li {
-  font-family: var(--font-inter);
+  font-family: var(--font-main);
   font-size: 14px;
   line-height: 1.5;
-  color: var(--black-color);
-
+  color: var(--white-color);
 }
 
 .scpg_sub-title {
-  font-family: var(--font-inter);
-  font-size: 18px;
+  font-family: var(--font-main);
+  font-size: 20px;
   line-height: 1.5;
-  font-weight: 800;
-  color: var(--black-color);
+  font-weight: 300 ;
+  color: var(--white-color);
   margin-bottom: 10px;
   margin-top: 30px;
 
@@ -148,7 +118,7 @@
 }
 
 .scpg_mail-link {
-  color: var(--black-color);
+  color: var(--white-color);
   text-decoration: underline;
   text-underline-offset: 3px;
   transition: color 0.3s ease;
@@ -166,9 +136,7 @@
 }
 
 .scpg_list {
-
   padding-left: 20px !important;
-
 
   li {
     list-style-type: disc;
@@ -180,7 +148,6 @@
     li {
       font-size: 24px;
     }
-
   }
 }
 
@@ -190,10 +157,9 @@
 
   li {
     list-style-type: decimal;
-    font-family: var(--font-inter);
     font-size: 15px;
     line-height: 1.6;
-    color: var(--black-color);
+    color: var(--white-color);
   }
 
   @media only screen and (min-width: 1440px) {

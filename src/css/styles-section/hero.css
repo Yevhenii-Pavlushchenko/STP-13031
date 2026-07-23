@@ -60,7 +60,6 @@
   display: block;
 }
 
-/* Заголовок H1 (шрифт автоматично підтягується з ваших базових стилів) */
 .hr_hero-title {
   color: var(--white-color);
   font-size: 32px;
@@ -78,7 +77,6 @@
   }
 }
 
-/* Блок опису */
 .hr_hero-descr-box {
   max-width: 330px;
 
