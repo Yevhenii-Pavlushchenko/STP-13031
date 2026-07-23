@@ -1,10 +1,6 @@
 .ft_footer {
-  padding: 40px 0;
-  background-color: var(--bg-dark);
+  padding: 80px 0;
 
-  @media only screen and (min-width: 1440px) {
-    padding: 80px 0;
-  }
 }
 
 .ft_footer-wrapper {
