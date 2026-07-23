@@ -1,4 +1,3 @@
-
 .glr_gallery {
   padding-bottom: 50px;
   padding-top: 0;
@@ -106,10 +105,8 @@
   }
 
   .glr_btn:hover {
-    background-color: var(--white-color);
-
+    background-color: var(--accent-color);
   }
-
 
   .glr_btn--prev {
     left: calc((100vw - 1041px) / 2 - 70px);

@@ -1,13 +1,17 @@
-.ftr_footer {
-  padding: 80px 0;
-  border-top: 1px solid var(--accent-color);
+.ft_footer {
+  padding: 40px 0;
+  background-color: var(--bg-dark);
+
+  @media only screen and (min-width: 1440px) {
+    padding: 80px 0;
+  }
 }
 
-.ftr_footer-wrapper {
+.ft_footer-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 25px;
+  gap: 32px;
   text-align: center;
 
   @media only screen and (min-width: 1440px) {
@@ -18,41 +22,38 @@
   }
 }
 
-.ftr_google-btn {
+.ft_logo-link {
   display: inline-block;
-  padding: 12px 38px;
-  background-color: var(--red-color);
-  border-radius: 12px;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-  border: 2px solid transparent;
-  box-shadow: 0px 4px 15px rgba(206, 22, 15, 0.4);
-
-  &:hover {
-    transform: scale(1.03);
-  }
+  text-decoration: none;
+  transition: transform 0.2s ease;
 
   @media only screen and (min-width: 1440px) {
     order: 2;
-    margin-right: auto;
+  }
+
+  &:hover {
+    transform: scale(1.02);
   }
 }
 
-.ftr_btn-figure {
+.ft_logo-figure {
   margin: 0;
 }
 
-.ftr_btn-img {
+.ft_logo-img {
   display: block;
-  max-width: 165px;
-  height: auto;
+  max-width: 100%;
+  width: 345px;
+  height: 85px;
+  object-fit: contain;
 }
 
-.ftr_footer-list {
-  order: 2;
+.ft_footer-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
+  list-style: none;
 
   @media only screen and (min-width: 1440px) {
     order: 3;
@@ -60,27 +61,28 @@
   }
 }
 
-.ftr_footer-link {
-  font-family: var(--font-poppins);
+.ft_footer-link {
+  font-family: var(--font-main);
+  font-weight: 300;
   font-size: 14px;
   color: var(--white-color);
   text-decoration: underline;
   text-underline-offset: 4px;
   transition: color 0.3s ease;
 
+  @media only screen and (min-width: 1440px) {
+    font-size: 15px;
+  }
+
   &:hover,
   &:focus {
     color: var(--accent-color);
   }
-
-  @media only screen and (min-width: 1440px) {
-    font-size: 15px;
-  }
 }
 
-.ftr_footer-copyright {
-  order: 3;
-  font-family: var(--font-poppins);
+.ft_footer-copyright {
+  font-family: var(--font-main);
+  font-weight: 300;
   font-size: 13px;
   color: var(--white-color);
   opacity: 0.8;
@@ -88,8 +90,6 @@
 
   @media only screen and (min-width: 1440px) {
     order: 1;
-    text-align: left;
     font-size: 14px;
-    margin-right: auto;
   }
 }
