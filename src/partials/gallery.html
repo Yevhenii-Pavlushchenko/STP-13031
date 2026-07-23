@@ -1,99 +1,218 @@
-<article class="chr_characters" id="characters">
-  <div class="abt_header-bg">
-    <h2 class="title-decor">
-      <span class="title-decor__text">Characters</span>
-    </h2>
+<article class="glr_gallery" id="gallery">
+  <div class="header-bg">
+    <div class="container">
+      <h2 class="section-title">Gallery</h2>
+    </div>
   </div>
 
-  <h3 class="chr_subtitle">THE ROYAL WORLD COMES ALIVE THROUGH ITS HEROES</h3>
-
+  <!-- Оставляем контейнер только для центрирования заголовка -->
   <div class="container">
-    <div class="chr_slider-wrapper">
-      <div class="chr_cards-list">
-        <div class="chr_card">
-          <figure class="chr_figure">
+    <h3 class="section_subtitle">TAKE A LOOK AT VISUALS</h3>
+  </div>
+
+  <!-- Сам слайдер выносим из .container, чтобы он мог свободно листаться от края до края экрана -->
+  <div class="glr_slider-viewport">
+    <!-- Кнопки теперь привязаны к внутренней сетке десктопа -->
+    <button
+      type="button"
+      class="glr_btn glr_btn--prev"
+      aria-label="Previous slide"
+    >
+      <svg width="17" height="32">
+        <use href="/sprite.svg#icon-chevron-left"></use>
+      </svg>
+    </button>
+
+    <button type="button" class="glr_btn glr_btn--next" aria-label="Next slide">
+      <svg width="17" height="32">
+        <use href="/sprite.svg#icon-chevron-right"></use>
+      </svg>
+    </button>
+
+    <div class="glr_slider-wrapper" id="glr-scroll-container">
+      <div class="glr_cards-list">
+        <!-- Карточки (все 8 штук остаются без изменений) -->
+        <div class="glr_card">
+          <figure class="glr_figure">
             <picture>
               <source
                 media="(min-width: 1440px)"
                 srcset="
-                  img/characters/princess.png    1x,
-                  img/characters/princess@2x.png 2x
+                  img/gallery/gal1-mob.png    1x,
+                  img/gallery/gal1-mob@2x.png 2x
                 "
               />
               <img
-                src="img/characters/princess-mob.png"
-                srcset="img/characters/princess-mob@2x.png 2x"
-                alt="Princess Elara"
-                width="300"
-                height="501"
+                src="img/gallery/gal1-mob.png"
+                srcset="img/gallery/gal1-mob@2x.png 2x"
+                alt="Abyssal ocean view 1"
+                width="270"
+                height="560"
                 loading="lazy"
               />
             </picture>
           </figure>
-          <div class="chr_card-content">
-            <h4 class="chr_card-title">Princess Elara</h4>
-            <p class="chr_card-text">
-              The future queen determined to restore the kingdom's former
-              beauty.
-            </p>
-          </div>
         </div>
 
-        <div class="chr_card">
-          <figure class="chr_figure">
+        <!-- Карточка 2 -->
+        <div class="glr_card">
+          <figure class="glr_figure">
             <picture>
               <source
                 media="(min-width: 1440px)"
                 srcset="
-                  img/characters/cedric.png    1x,
-                  img/characters/cedric@2x.png 2x
+                  img/gallery/gal2-mob.png    1x,
+                  img/gallery/gal2-mob@2x.png 2x
                 "
               />
               <img
-                src="img/characters/cedric-mob.png"
-                srcset="img/characters/cedric-mob@2x.png 2x"
-                alt="Cedric"
-                width="300"
-                height="501"
+                src="img/gallery/gal2-mob.png"
+                srcset="img/gallery/gal2-mob@2x.png 2x"
+                alt="Abyssal ocean view 2"
+                width="270"
+                height="560"
                 loading="lazy"
               />
             </picture>
           </figure>
-          <div class="chr_card-content">
-            <h4 class="chr_card-title">Cedric</h4>
-            <p class="chr_card-text">
-              A loyal royal guardian protecting the castle from hidden dangers.
-            </p>
-          </div>
         </div>
 
-        <div class="chr_card">
-          <figure class="chr_figure">
+        <!-- Карточка 3 -->
+        <div class="glr_card">
+          <figure class="glr_figure">
             <picture>
               <source
                 media="(min-width: 1440px)"
                 srcset="
-                  img/characters/luna.png    1x,
-                  img/characters/luna@2x.png 2x
+                  img/gallery/gal3-mob.png    1x,
+                  img/gallery/gal3-mob@2x.png 2x
                 "
               />
               <img
-                src="img/characters/luna-mob.png"
-                srcset="img/characters/luna-mob@2x.png 2x"
-                alt="Luna"
-                width="300"
-                height="501"
+                src="img/gallery/gal3-mob.png"
+                srcset="img/gallery/gal3-mob@2x.png 2x"
+                alt="Abyssal ocean view 3"
+                width="270"
+                height="560"
                 loading="lazy"
               />
             </picture>
           </figure>
-          <div class="chr_card-content">
-            <h4 class="chr_card-title">Luna</h4>
-            <p class="chr_card-text">
-              A mysterious mage connected to the kingdom's forgotten magic and
-              hidden secrets.
-            </p>
-          </div>
+        </div>
+
+        <!-- Карточка 4 -->
+        <div class="glr_card">
+          <figure class="glr_figure">
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  img/gallery/gal4-mob.png    1x,
+                  img/gallery/gal4-mob@2x.png 2x
+                "
+              />
+              <img
+                src="img/gallery/gal4-mob.png"
+                srcset="img/gallery/gal4-mob@2x.png 2x"
+                alt="Abyssal ocean view 4"
+                width="270"
+                height="560"
+                loading="lazy"
+              />
+            </picture>
+          </figure>
+        </div>
+
+        <!-- Карточка 5 -->
+        <div class="glr_card">
+          <figure class="glr_figure">
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  img/gallery/gal5-mob.png    1x,
+                  img/gallery/gal5-mob@2x.png 2x
+                "
+              />
+              <img
+                src="img/gallery/gal5-mob.png"
+                srcset="img/gallery/gal5-mob@2x.png 2x"
+                alt="Abyssal ocean view 5"
+                width="270"
+                height="560"
+                loading="lazy"
+              />
+            </picture>
+          </figure>
+        </div>
+
+        <!-- Карточка 6 -->
+        <div class="glr_card">
+          <figure class="glr_figure">
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  img/gallery/gal6-mob.png    1x,
+                  img/gallery/gal6-mob@2x.png 2x
+                "
+              />
+              <img
+                src="img/gallery/gal6-mob.png"
+                srcset="img/gallery/gal6-mob@2x.png 2x"
+                alt="Abyssal ocean view 6"
+                width="270"
+                height="560"
+                loading="lazy"
+              />
+            </picture>
+          </figure>
+        </div>
+
+        <!-- Карточка 7 -->
+        <div class="glr_card">
+          <figure class="glr_figure">
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  img/gallery/gal7-mob.png    1x,
+                  img/gallery/gal7-mob@2x.png 2x
+                "
+              />
+              <img
+                src="img/gallery/gal7-mob.png"
+                srcset="img/gallery/gal7-mob@2x.png 2x"
+                alt="Abyssal ocean view 7"
+                width="270"
+                height="560"
+                loading="lazy"
+              />
+            </picture>
+          </figure>
+        </div>
+
+        <!-- Карточка 8 -->
+        <div class="glr_card">
+          <figure class="glr_figure">
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  img/gallery/gal8-mob.png    1x,
+                  img/gallery/gal8-mob@2x.png 2x
+                "
+              />
+              <img
+                src="img/gallery/gal8-mob.png"
+                srcset="img/gallery/gal8-mob@2x.png 2x"
+                alt="Abyssal ocean view 8"
+                width="270"
+                height="560"
+                loading="lazy"
+              />
+            </picture>
+          </figure>
         </div>
       </div>
     </div>
