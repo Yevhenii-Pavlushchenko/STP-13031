@@ -3,7 +3,7 @@
   padding-bottom: 80px;
 }
 
-.abt_header-bg {
+.header-bg {
   background-color: var(--bg-light);
   background: linear-gradient(90deg, #12344d 0%, #031d36 50%, #12344d 100%);
   padding-top: 80px;
